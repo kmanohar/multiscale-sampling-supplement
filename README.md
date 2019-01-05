@@ -14,6 +14,12 @@ In this code we provide the following:
 The mrDMD method and subroutines in 'src/' are adapted from previous work
 > J. Nathan Kutz, Steven L. Brunton, Bingni W. Brunton and Joshua L. Proctor. *Dynamic mode Decomposition: data-driven modeling of complex systems*. Vol. 149. SIAM (2016).
 
+## External dependencies
+
+- Matlab Signal Processing Toolbox
+- [SPGL1](https://www.cs.ubc.ca/~mpf/spgl1/) solver for sparse systems (included)
+- [export_fig](https://www.mathworks.com/matlabcentral/fileexchange/23629-export_fig) (included)
+
 ## Installation
 
 Run setup.m to configure Matlab path, external packages and datasets.
